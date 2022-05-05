@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Advice, AdviceText, Container, Dice, Separator, Title, Toggle } from './AdviceGeneratorStyles'
 import dice from "../assets/icon-dice.svg";
-import { getRandomAdvice } from '../services/AdviceServices';
 import axios from "axios";
 
 export default function  AdviceGenerator() {
